@@ -9,6 +9,7 @@ READ_EXTERNAL_STORAGE
 WRITE_EXTERNAL_STORAGE
 Such permissions allow the application to create and open the file it generates.
 Such files are created/opened always when required by the user.
+
 com.google.android.gms.permission.AD_ID is also required to run ads on old devices.
 
 ### Contacts
