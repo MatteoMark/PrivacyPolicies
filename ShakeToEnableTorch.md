@@ -12,6 +12,7 @@ To properly work, Shake to enable torch needs the following permissions:
 **■ WAKE_LOCK** to allow the app to work while the device is locked. This allows the user to turn ON the flashlight when the device is locked  
 **■ RECEIVE_BOOT_COMPLETED** to automatically start the app when you turn on your device (if requested by the user)
 **■ READ_PHONE_STATE** to disable the service during active and incoming calls (if requested by the user)
+**■ FOREGROUND_SERVICE_DATA_SYNC** to start the service that listens for device motion to enable the torch when requested
 
 ### Contacts
 If you think this app could potentially harm your privacy, feel free to reach out to me by email: luxebytecomp@gmail.com
